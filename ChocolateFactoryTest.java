@@ -17,4 +17,5 @@ public class ChocolateFactoryTest {
         boiler2.fill();
         boiler2.displayStatus();
     }
+    System.out.println("Are both instances the same? " + (boiler1 == boiler2));
 }
